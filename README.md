@@ -1,4 +1,4 @@
-# Drone-Vision -Autonomous Object Detection on Low-Cost Drones with PyTorch
+# Drone-Vision : Autonomous Object Detection on Low-Cost Drones with PyTorch
 
 
 ## Description:
@@ -11,3 +11,35 @@ This project showcases a computer vision pipeline for real-time object detection
 * Optimized with PyTorch: Employing PyTorch for flexible, efficient model training and deployment.
 * Cost-Effective Hardware Integration: Built for budget-friendly, widely available drones, enabling scalable field applications.
 * This project is ideal for developers, researchers, and enthusiasts looking to explore drone-based computer vision with limited budgets and resources. It can be adapted for applications in environmental monitoring, agricultural surveys, and autonomous navigation systems.
+
+## Demostration Videos
+TBH
+
+## Getting Started
+
+To set up your python environment to run the code in this repository, follow the instructions below.
+
+1. Create (and activate) a new environment with Python 3.8.
+
+- __Linux__ or __Mac__: 
+	```bash
+	conda create --name Drone-Vision python=3.8
+	conda activate Drone-Vision
+	conda env config vars list
+	```
+
+2. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+	```bash
+	git clone https://github.com/cav2094/Drone-Vision.git
+	cd Drone-Vision
+	```
+3. Install required packages:
+- __Linux__ or __Mac__: 
+	```bash
+  pip install djitellopy
+  pip install opencv-python
+  conda install pytorch torchvision -c pytorch
+  pip install ultralytics
+	```
+
+
