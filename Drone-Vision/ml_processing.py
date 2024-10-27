@@ -57,7 +57,7 @@ class VideoProcessor:
         self.model = YOLO(model_path)
         print(f"Model loaded successfully. Using device: {self.device}")
 
-    def process_frame_yolo(self, frame: cv2.Mat) -> cv2.Mat:
+    def process_frame_yolo8(self, frame: cv2.Mat) -> cv2.Mat:
         """
         Process a frame using YOLO object detection.
 
@@ -140,7 +140,7 @@ def main():
         while True:
             ret, frame = processor.read_frame()
             if ret:
-                processed_frame = processor.process_frame_yolo(frame)
+                processed_frame = processor.process_frame_yolo8(frame)
                 cv2.imshow("Video Processing", processed_frame)
 
             if cv2.waitKey(1) & 0xFF == ord("q"):

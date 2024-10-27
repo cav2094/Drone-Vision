@@ -1,5 +1,5 @@
 import cv2
-from ml_processing import process_frame_yolo8
+from ml_processing import VideoProcessor
 from djitellopy import Tello
 """
 Just video processing
