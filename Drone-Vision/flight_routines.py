@@ -57,7 +57,8 @@ def simple_scan(tello):
 
     # Execute grid scan maneuver
     print("Executing grid scan...")
-    grid_routine(tello, 20, 3)
+    for i in range(3):
+        grid_routine(tello, 500, 3)
     
 
 
@@ -73,15 +74,12 @@ def simple_scan(tello):
     print("Flight routine completed.")
 
 def grid_routine(tello, x, y):
-    for i in range(y):
-        tello.move_forward(x)
-
-        rotate_clockwise(90)
-        tello.move_forward(x)
-        rotate_clockwise(90)
-
-        tello.move_forward(x)
-
-        rotate_counter_clockwise(90)
-        tello.move_forward(x)
-        rotate_counter_clockwise(90)
+    time.sleep(1)
+    tello.move_forward(x)
+    tello.rotate_clockwise(90)
+    tello.move_forward(30)
+    tello.rotate_clockwise(90)
+    tello.move_forward(x)
+    tello.rotate_counter_clockwise(90)
+    tello.tello.move_forward(30)
+    tello.rotate_counter_clockwise(90)

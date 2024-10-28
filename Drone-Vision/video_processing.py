@@ -5,7 +5,6 @@ from djitellopy import Tello
 Just video processing
 """
 
-
 def show_video_ml(tello, classifier):
     # Start the video stream
     print("Tuning on the stream")
@@ -18,12 +17,14 @@ def show_video_ml(tello, classifier):
     # Read and display the video stream
     print("Starting stream...")
     try:
+        val = VideoProcessor()
+        val.load_yolo_model()
         count = 0
         while True:
             ret, frame = cap.read()
             if ret:
                 if count % 3 == 0:
-                    frame = process_frame_yolo8(frame, classifier)
+                    frame = val.process_frame_yolo8(frame)
                     cv2.imshow("Tello Video", frame)
                     count = 0
             if cv2.waitKey(1) & 0xFF == ord("q"):
