@@ -12,8 +12,9 @@ This project showcases a computer vision pipeline for real-time object detection
 * Cost-Effective Hardware Integration: Built for budget-friendly, widely available drones, enabling scalable field applications.
 * This project is ideal for developers, researchers, and enthusiasts looking to explore drone-based computer vision with limited budgets and resources. It can be adapted for applications in environmental monitoring, agricultural surveys, and autonomous navigation systems.
 
-## Demostration Videos
-TBH
+## Demonstration of Threaded Flying and Recognition
+
+https://www.youtube.com/watch?v=3AQM3IJQ70k 
 
 ## Getting Started
 
