@@ -12,9 +12,8 @@ This project showcases a computer vision pipeline for real-time object detection
 * Cost-Effective Hardware Integration: Built for budget-friendly, widely available drones, enabling scalable field applications.
 * This project is ideal for developers, researchers, and enthusiasts looking to explore drone-based computer vision with limited budgets and resources. It can be adapted for applications in environmental monitoring, agricultural surveys, and autonomous navigation systems.
 
-## Example of MNIST Data-set
-![IMAGE ALT TEXT HERE](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/MNIST_dataset_example.png/640px-MNIST_dataset_example.png) 
-
+## Demonstration of Threaded Flying and Recognition (Click to Play)
+[![IMAGE ALT TEXT HERE](https://cdn.mos.cms.futurecdn.net/kXUY9hyetVzhZ2scwJP7p3-1200-80.jpg)](https://www.youtube.com/watch?v=3AQM3IJQ70k) 
 
 ## Getting Started
 
